@@ -1,0 +1,310 @@
+// header
+.header{
+  padding: 10px 30px;
+  background-color: $MainColor;
+  color: $BaseColor2;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+
+  h1{
+    
+    a{
+      font-size: 28px;
+      color: $BaseColor2;
+    }
+  }
+
+  .header_nav{
+    margin-top: 10px;
+    ul{
+      display: flex;
+      li{
+        margin-right: 30px;
+        list-style: none;
+        a{
+          color: $BaseColor2;
+          font-size: 20px;
+        }
+      }
+      li:last-child{
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+.key_visual{
+  background-image: url(../images/home_keyvisual.webp);
+  background-position: 50% 44%;
+  margin-bottom: 30px;
+
+  .inner_mask{
+    padding: 160px 60px 60px 60px;
+
+    h2{
+      color: $BaseColor2;
+      text-align: center;
+      font-size: 36px;
+      margin:0 auto 30px auto;
+      max-width: 432px;
+      width: 100%;
+    }
+    p{
+      color: $BaseColor2;
+      text-align: center;
+      font-size: 20px;
+      margin:0 auto;
+      max-width: 500px;
+      width: 100%;
+    }
+  }
+}
+
+.service{
+  margin-bottom: 60px;
+  .ser_intro{
+    font-size: 20px;
+    color: $MainColor;
+    text-align: center;
+    max-width: 780px;
+    width: 100%;
+    margin: 0 auto 30px auto;
+  }
+  .ser_contents{
+    display: flex;
+    width: 100%;
+    margin-bottom: 30px;
+    .ser_content{
+      text-align: center;
+      border: 1px solid $MainColor;
+      padding: 30px;
+      width: 25%;
+      background-color: $BaseColor2;
+
+      i{
+        font-size: 63px;
+        color: $AccentColor1;
+        margin-bottom: 20px;
+      }
+      h3{
+        margin-bottom: 20px;
+      }
+      p{
+        text-align: justify;
+      }
+    }
+  }
+}
+
+.feature{
+  margin-bottom: 60px;
+  .fea_hed2{
+    margin-bottom: 30px;
+  }
+  .fea_contents{
+    display: flex;
+    width: 100%;
+    .fea_content{
+      border: 1px solid $MainColor;
+      width: 33.3%;
+      padding: 0 30px;
+      background-color: $BaseColor2;
+      .number{
+        background-color: $AccentColor1;
+        width: 70px;
+        font-size: 40px;
+        color: $BaseColor2;
+        padding: 3px 0;
+        text-align: center;
+        border-radius: 100px;
+        margin: 0 auto;
+        position: relative;
+        top:-35px;
+      }
+      h3{
+        font-size: 20px;
+        margin-bottom: 30px;
+        text-align: center;
+        color: $MainColor;
+      }
+      ul{
+        li{
+          color: $MainColor;
+          margin-bottom: 30px;
+          margin-left: 20px;
+        }
+      }
+    }
+  }
+}
+
+.works{
+  margin-bottom: 60px;
+  .works_contents{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    .works_content{
+      width: 50%;
+      border: 1px solid $MainColor;
+      a{
+        display: block;
+        padding: 100px 0;
+        text-align: center;
+        color: $BaseColor2;
+        transition:background-color 0.5s ease;
+        &:hover{
+          background-color:$WorksHover;
+        }
+      }
+    }
+    .works_recycle{
+      background-image: url(../images/recycle_keyvisual.webp);
+      background-size: cover;
+      background-position: 0 40%;
+    }
+    .works_cafe{
+      background-image: url(../images/cafe_keyvisual.webp);
+      background-size: cover;
+      background-position: 0 40%;
+    }
+    .works_dental{
+      background-image: url(../images/dentaloffice_keyvisual.webp);
+      background-size: cover;
+      background-position: 0 40%;
+    }
+    .works_bakely{
+      background-image: url(../images/bakely_keyvisual.webp);
+      background-size: cover;
+      background-position: 0 40%;
+    }
+  }
+}
+
+.price{
+  margin-bottom: 60px;
+  .price_contents{
+    display: flex;
+    width: 100%;
+    .price_content{
+      width: 33.3%;
+      border: 1px solid $MainColor;
+      padding: 30px;
+      margin-bottom: 30px;
+      background-color: $BaseColor2;
+      position: relative;
+      .price_label{
+        background-color: $AccentColor2;
+        color: $BaseColor2;
+        font-weight: bold;
+        padding: 0 10px;
+        position: absolute;
+        top: 36px;
+      }
+      h3{
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        span{
+          position: relative;
+          top: -15px;
+          font-size: 16px;
+          font-weight: normal;
+        }
+      }
+      .price_monthly{
+        margin-bottom: 40px;
+      }
+      .price_number{
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        color: $AccentColor1;
+        margin-bottom: 30px;
+      }
+      ul{
+        margin-left: 30px;
+        color: $MainColor;
+      }
+    }
+  }
+}
+
+.information{
+  background-color: $BaseColor2;
+  padding: 60px;
+  .info_wrapper{
+    margin: 0 auto;
+    max-width: 360px;
+    width: 100%;
+    ul{
+      li{
+        margin-bottom: 20px;
+        color: $MainColor;
+      }
+    }
+  }
+}
+
+.contact{
+  padding: 60px;
+  .contact_form{
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    .form_group{
+      margin-bottom: 30px;
+      display: flex;
+      label{
+        vertical-align: top;
+        display: block;
+        width: 33.3%;
+        padding-top: 10px;
+      }
+      input{
+        max-width: 400px;
+        width: 66.7%;
+        display: block;
+      }
+      textarea{
+        max-width: 400px;
+        width: 100%;
+        height: 300px;
+      }
+    }
+    button{
+      max-width: 250px;
+      width: 100%;
+      background-color: $AccentColor1;
+      color: $BaseColor2;
+      display: block;
+      border: 1px solid $AccentColor1;
+      margin: 0 auto;
+      padding: 20px;
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+      border-radius: 40px;
+      transition:opacity 0.5s ease;
+      &:hover{
+          opacity: 0.7;
+          cursor: pointer;
+      }
+    }
+  }
+}
+
+.footer{
+  background-color: $MainColor;
+  padding: 30px;
+  p{
+    text-align: center;
+    color: $BaseColor2;
+  }
+}

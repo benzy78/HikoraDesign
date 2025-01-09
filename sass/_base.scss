@@ -22,7 +22,7 @@ body {
 	line-height: $lh-base;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	background: $SubColor;
+	background: $BaseColor1;
 	overflow-x: hidden;
 }
 
@@ -47,10 +47,6 @@ article,aside,footer,header,nav,section,main {
 	display: block;
 }
 
-li,ol{
-  list-style: none;
-}
-
 a:link,a:visited,a:hover,a:active{
   text-decoration: none;
 }
@@ -63,7 +59,7 @@ table {
 	border-spacing: 0;
 	width: 100%;
 	table-layout: fixed;
-	border: 1px solid $cr-table;
+	border: 1px solid $MainColor;
 }
 
 th,td {
@@ -246,12 +242,15 @@ select {
   display: none;
 }
 
-.inner{
-  margin: 0 auto;
-  max-width: 100%;
-  width: 1100px;
-}
 
 .wrapper{
   overflow: hidden;
+}
+
+.inner_mask{
+	background-color: $InnerMask;
+}
+
+main{
+	background-color: $BaseColor1;
 }

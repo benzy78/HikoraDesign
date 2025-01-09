@@ -1,5 +1,8 @@
-@import "variables/**";
+@import "variables/color.scss";
+@import "variables/typography.scss";
 @import "_mixin.scss";
 @import "_base.scss";
 @import "_module.scss";
-@import "block/**";
+@import "_main.scss";
+
+
