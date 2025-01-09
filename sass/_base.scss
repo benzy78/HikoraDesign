@@ -15,7 +15,7 @@ body {
 }
 
 body {
-	font-family: $ff-base;
+	font-family: $ff-gothic;
 	font-size: $fz-base;
 	font-weight: $fw-base;
 	color: $MainColor;
@@ -247,9 +247,7 @@ select {
   overflow: hidden;
 }
 
-.inner_mask{
-	background-color: $InnerMask;
-}
+
 
 main{
 	background-color: $BaseColor1;

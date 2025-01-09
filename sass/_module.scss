@@ -16,6 +16,7 @@
         text-align: center;
         font-size: 20px;
         font-weight: bold;
+        font-family: $ff-gothic;
         border-radius: 40px;
         transition:opacity 0.5s ease;
         &:hover{
@@ -27,11 +28,16 @@
 .hed2{
     text-align: center;
     color: $MainColor;
-    font-size: 28px;
+    font-size: 32px;
+    font-family: $ff-mincho;
     span{
         position: relative;
-        top: -15px;
+        top: -20px;
         font-size: 20px;
         font-weight: normal;
     }
+}
+
+.inner_mask{
+	background-color: $InnerMask;
 }

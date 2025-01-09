@@ -15,6 +15,7 @@
     
     a{
       font-size: 28px;
+      font-family:$ff-mincho;
       color: $BaseColor2;
     }
   }
@@ -29,6 +30,7 @@
         a{
           color: $BaseColor2;
           font-size: 20px;
+          font-family: $ff-mincho;
         }
       }
       li:last-child{
@@ -44,14 +46,15 @@
   margin-bottom: 30px;
 
   .inner_mask{
-    padding: 160px 60px 60px 60px;
+    padding: 140px 60px 60px 60px;
+    font-family: $ff-mincho;
 
     h2{
       color: $BaseColor2;
       text-align: center;
-      font-size: 36px;
+      font-size: 38px;
       margin:0 auto 30px auto;
-      max-width: 432px;
+      max-width: 460px;
       width: 100%;
     }
     p{
