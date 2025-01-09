@@ -1,0 +1,14 @@
+.detail_recruit{
+  .hed_img{
+    background-image: url(../images/recruit_keyvisual.webp);
+    background-size: cover;
+    background-position: 50% 40%;
+  }
+  h3{
+    span{
+      position: relative;
+      top: -10px;
+      font-size: 20px;
+    }
+  }
+}

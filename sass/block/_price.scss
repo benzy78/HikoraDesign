@@ -1,0 +1,17 @@
+.detail_price{
+  .hed_img{
+    background-image: url(../images/service_keyvisual.webp);
+    background-size: cover;
+    background-position: 50% 40%;
+  }
+  .det_con_card{
+    h3{
+      margin-bottom: 10px;
+      span{
+        position: relative;
+        top: -10px;
+        font-size: 20px;
+      }
+    }
+  }
+}

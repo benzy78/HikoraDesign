@@ -1,0 +1,64 @@
+.detail_works{
+  padding: 100px 0;
+  .det_works_cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    .det_works_card{
+      width: 50%;
+      a{
+        padding: 80px;
+        display: block;
+        font-weight: bold;
+        font-family: $ff-mincho;
+        text-align: center;
+        color: $BaseColor2;
+        border: 1px solid $MainColor;
+        transition:background-color 0.5s ease;
+        &:hover{
+          background-color:$WorksHover;
+        }
+      }
+    }
+    .card_recycle{
+      background-image: url(../images/recycle_keyvisual.webp);
+      background-size: cover;
+      background-position: 50% 40%;
+    }
+    .card_cafe{
+      background-image: url(../images/cafe_keyvisual.webp);
+      background-size: cover;
+      background-position: 50% 40%;
+    }
+    .card_dental{
+      background-image: url(../images/dentaloffice_keyvisual.webp);
+      background-size: cover;
+      background-position: 50% 40%;
+    }
+    .card_bakery{
+      background-image: url(../images/bakely_keyvisual.webp);
+      background-size: cover;
+      background-position: 50% 40%;
+    }
+    .card_ramen{
+      background-image: url(../images/ramen_keyvisual.webp);
+      background-size: cover;
+      background-position: 50% 40%;
+    }
+    .card_design{
+      background-image: url(../images/homedesign_keyvisual.webp);
+      background-size: cover;
+      background-position: 50% 40%;
+    }
+    .card_piano{
+      background-image: url(../images/pianoclass_keyvisual.webp);
+      background-size: cover;
+      background-position: 50% 40%;
+    }
+    .card_juku{
+      background-image: url(../images/studyclass_keyvisual.webp);
+      background-size: cover;
+      background-position: 50% 40%;
+    }
+  }
+}
