@@ -522,6 +522,12 @@ main {
   background-image: url(../images/home_keyvisual.webp);
   background-position: 50% 44%;
   margin-bottom: 30px;
+  background-size: cover;
+}
+@media (max-width: 768px) {
+  .key_visual {
+    background-position: 50% 44%;
+  }
 }
 .key_visual .inner_mask {
   padding: 140px 60px 60px 60px;
