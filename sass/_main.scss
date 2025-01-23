@@ -153,6 +153,7 @@
   background-position: 50% 44%;
   margin-bottom: 30px;
   background-size: cover;
+
   @include sp{
     background-position: 50% 44%;
   }
@@ -196,6 +197,11 @@
       }
     }
   }
+}
+
+.key_visual.show {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .service{
@@ -542,4 +548,28 @@
     color: $BaseColor2;
     font-family: $ff-mincho;
   }
+}
+
+
+// アニメーション
+.top-hide{
+  opacity: 0; 
+  transform: translateY(50px); 
+  transition: all 0.8s ease; 
+}
+
+.top-hide.show {
+  opacity: 1; 
+  transform: translateY(0);
+}
+
+.section {
+  opacity: 0; 
+  transform: translateY(50px); 
+  transition: all 0.8s ease; 
+}
+
+.section.show {
+  opacity: 1; 
+  transform: translateY(0);
 }
