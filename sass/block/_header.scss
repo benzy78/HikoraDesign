@@ -2,7 +2,7 @@
     header
 */
 .header{
-    padding:24px 24px 8px;
+    padding:24px;
     background-color: $mc-navy;
     color: $bc-white;
     position: fixed;
@@ -42,7 +42,7 @@
 }
 
 .header__nav{
-    margin-top: 8px;
+    margin-top: 16px;
   }
   .menu-toggle {
     display: none;

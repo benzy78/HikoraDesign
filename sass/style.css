@@ -905,7 +905,7 @@ main {
     header
 */
 .header {
-  padding: 24px 24px 8px;
+  padding: 24px;
   background-color: #1c1e31;
   color: #ffffff;
   position: fixed;
@@ -946,7 +946,7 @@ main {
 }
 
 .header__nav {
-  margin-top: 8px;
+  margin-top: 16px;
 }
 
 .menu-toggle {
