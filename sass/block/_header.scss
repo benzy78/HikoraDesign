@@ -62,7 +62,7 @@
   }
 
   .menu-icon {
-    background-color: $BaseColor2;
+    background-color: $bc-white;
     height: 3px;
     width: 100%;
     border-radius: 5px;
@@ -133,7 +133,7 @@
         display: block;
         position: absolute;
         height: 100vh;
-        background-color: $MainColorMask;
+        background-color: $mask-navy;
         top: 0;
         width: 100%;
         left: 0;
@@ -146,7 +146,7 @@
           @include tab{
             display: block;
             padding: 24px;
-            border-bottom: 1px solid $BaseColor2;
+            border-bottom: 1px solid $bc-white;
           }
         }
       }

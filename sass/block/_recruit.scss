@@ -1,11 +1,17 @@
 .recruiting{
   padding: 154px 24px 64px;
   background-color: $bc-white;
+  @include sp{
+    padding: 118px 24px 48px;
+  }
 }
 .recruiting__contents{
   background-color: $bc-glay;
   padding: 48px;
   margin-bottom: 48px;
+  @include sp{
+    padding: 24px;
+  }
 }
 .recruiting__contents-ttl{
   font-size: 32px;
