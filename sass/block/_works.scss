@@ -1,6 +1,9 @@
 .working{
   padding: 158px 24px 64px;
   background-color: $bc-glay;
+  @include sp{
+    padding: 118px 24px 48px;
+  }
 }
 .working__contents{
   display: flex;

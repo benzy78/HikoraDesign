@@ -1146,6 +1146,11 @@ main {
   padding: 158px 24px 64px;
   background-color: #ffffff;
 }
+@media (max-width: 768px) {
+  .servicing {
+    padding: 118px 24px 48px;
+  }
+}
 
 .servicing__contents {
   display: flex;
@@ -1424,6 +1429,11 @@ main {
 .working {
   padding: 158px 24px 64px;
   background-color: #f7f9fb;
+}
+@media (max-width: 768px) {
+  .working {
+    padding: 118px 24px 48px;
+  }
 }
 
 .working__contents {

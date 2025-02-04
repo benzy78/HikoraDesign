@@ -1,6 +1,9 @@
 .servicing{
   padding: 158px 24px 64px;
   background-color: $bc-white;
+  @include sp{
+    padding: 118px 24px 48px;
+  }
 }
 .servicing__contents{
   display: flex;
