@@ -6,7 +6,6 @@
   display: flex;
   justify-content: space-between;
   gap: 48px;
-  padding-top: 24px;
   @include sp{
     flex-wrap: wrap;
   }

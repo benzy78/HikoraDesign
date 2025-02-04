@@ -1508,7 +1508,6 @@ main {
   display: flex;
   justify-content: space-between;
   gap: 48px;
-  padding-top: 24px;
 }
 @media (max-width: 768px) {
   .comming__contents {
