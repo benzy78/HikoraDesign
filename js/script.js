@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   const menuToggle = document.querySelector(".menu-toggle");
-  const navLinks = document.querySelector(".header_nav");
-  const navItems = document.querySelectorAll(".nav_links a"); 
+  const navLinks = document.querySelector(".header__nav");
+  const navItems = document.querySelectorAll(".header__nav-links a"); 
 
   menuToggle.addEventListener("click", () => {
     navLinks.classList.toggle("active");
@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // 最上部のアニメーション
   $(document).ready(function () {
-    const $keyvisual = $('.top-hide');
+    const $keyvisual = $('.fadein');
     $(window).on('scroll', function () {
       const scrollTop = $(window).scrollTop(); // 現在のスクロール位置
       const windowHeight = $(window).height(); // ウィンドウの高さ
@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
   $(document).ready(function() {
     // スクロール時に処理を実行
     $(window).on("scroll", function() {
-      $(".section").each(function() {
+      $(".scroll-fadein").each(function() {
         // 要素の位置を取得
         const elementTop = $(this).offset().top;
         const windowBottom = $(window).scrollTop() + $(window).height();

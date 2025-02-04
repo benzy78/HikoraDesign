@@ -21,138 +21,123 @@
 <body>
     <div class="wrapper">
         <!-- header -->
-        <header class="header">
-          <div class="header_inner">
-              <h1 class="logo"><a href="../index.html">Hikora Design</a></h1>
-              <nav class="header_nav">
-                  <button class="menu-toggle" aria-label="Toggle navigation">
-                      <span class="menu-icon"></span>
-                      <span class="menu-icon"></span>
-                      <span class="menu-icon"></span>
-                  </button>
-                  <ul class="nav_links">
-                      <li><a href="../index.html">ホーム</a></li>
+      <header class="header">
+        <div class="inner--large header__inner">
+            <h1 class="header__logo"><a href="../index.html"><img src="../images/hikora_design_white_text 1.svg" alt="Hikora Design"></a></h1>
+            <nav class="header__nav">
+                <button class="menu-toggle" aria-label="Toggle navigation">
+                    <span class="menu-icon"></span>
+                    <span class="menu-icon"></span>
+                    <span class="menu-icon"></span>
+                    <span class="menu-label">Menu</span>
+                </button>
+                <ul class="header__nav-links">
+                    <li><a href="./service.html">事業紹介</a></li>
+                    <li><a href="./works.html">実績</a></li>
+                    <li><a href="./price.html">価格</a></li>
+                    <li><a href="../index.html#information">会社情報</a></li>
+                    <li><a href="./recruit.html">採用</a></li>
+                    <li><a href="./commingsoon.html">お問い合わせ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- header end -->
+      <!-- servicing -->
+       <section class="servicing">
+        <div class="inner--large">
+          <h2 class="section-ttl">Service<br><span>サービス詳細</span></h2>
+          <div class="servicing__contents fadein">
+            <div class="servicing__cont-img">
+              <img src="../images/webdevelop.webp" alt="Webサイト制作アイキャッチ">
+            </div>
+            <div class="servicing__cont-text">
+              <h3 class="servicing__text-ttl">Webサイト制作</h3>
+              <p class="servicing__text-copy">「魅力を引き出し、最大の成果を生むWebサイトを」</p>
+              <p class="servicing__text-description">　当社のWebサイト制作サービスでは、クライアントのビジョンやブランド価値を最大限に引き出すことを目的としています。単なる「見た目の良さ」だけでなく、ユーザーの行動を促すための構造設計やSEO対策を施した、成果に直結するWebサイトを提供します。</p>
+              <p class="servicing__text-subttl">提供内容：</p>
+              <ul class="servicing__text-list">
+                <li>コーポレートサイト、ランディングページ（LP）など多様なサイト制作に対応。</li>
+                <li>ユーザー体験（UX）を重視したモダンなデザイン。</li>
+                <li>スマホ・タブレットに対応したレスポンシブデザインを標準装備。</li>
+                <li>検索エンジンでの表示を最適化する基本的なSEO設定。</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="servicing__contents scroll-fadein">
+            <div class="servicing__cont-img order2">
+              <img src="../images/snsmarketing.webp" alt="SNS・広告運用アイキャッチ">
+            </div>
+            <div class="servicing__cont-text order1">
+              <h3 class="servicing__text-ttl">SNS・広告運用</h3>
+              <p class="servicing__text-copy">「拡散力とデータ分析で集客を最大化」</p>
+              <p class="servicing__text-description">SNSの活用とデジタル広告運用を通じて、ターゲットに確実にリーチするためのサポートを行います。私たちは、クライアントのビジネス目標に合わせた戦略を立案し、成果を上げるための運用を代行します。</p>
+              <p class="servicing__text-subttl">提供内容：</p>
+              <ul class="servicing__text-list">
+                <li>Facebook、Instagram、X、LinkedInなど主要SNSのアカウント運用代行。</li>
+                <li>魅力的な投稿内容（画像・動画・キャプション）を作成し、ユーザーとのエンゲージメントを向上。</li>
+                <li>Google広告やSNS広告キャンペーンの戦略立案、実施、効果測定。</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="servicing__contents scroll-fadein">
+            <div class="servicing__cont-img">
+              <img src="../images/maintenance.webp" alt="保守運用アイキャッチ">
+            </div>
+            <div class="servicing__cont-text">
+              <h3 class="servicing__text-ttl">既存サイトの保守・運用</h3>
+              <p class="servicing__text-copy">「安心できる運用体制で、長く愛されるWebサイトに」</p>
+              <p class="servicing__text-description">Webサイトは「作ったら終わり」ではありません。運用中のトラブルやセキュリティ対策、更新作業をサポートすることで、安心してWebサイトを活用できる環境を提供します。</p>
+              <p class="servicing__text-subttl">提供内容：</p>
+              <ul class="servicing__text-list">
+                <li>サーバーの動作確認、バージョンアップ対応。</li>
+                <li>サイトスピードの最適化。</li>
+                <li>SSL証明書の更新、不正アクセス防止。</li>
+                <li>セキュリティホールのパッチ適用。</li>
+                <li>テキストや画像の差し替え、新コンテンツの追加。</li>
+                <li>最新のSEO対策に基づいたサイト改修。</li>
+                <li>定期バックアップの実施とトラブル時の復元対応。</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+       </section>
+       <!-- servicing end -->
+        <!-- cta-section -->
+        <section class="cta bg-glay  scroll-fadein">
+          <div class="inner--small">
+            <h2 class="cta__ttl">あなたのビジネスに最適なWebサイトを。</h2>
+            <p class="cta__text">集客・ブランディング・マーケティングを意識したWeb戦略を、一緒に実現しませんか？まずはお気軽にご相談ください。</p>
+            <a href="./commingsoon.html" class="cta-btn">問い合わせる</a>
+          </div>
+         </section>
+         <!-- cta-section end -->
+        <!-- footer -->
+        <footer class="footer">
+          <div class="inner--large">
+              <div class="footer__contents">
+                  <h2 class="footer__logo"><a href="../index.html"><img src="../images/hikora_design_white_text 1.svg" alt="Hikora Design"></a></h2>
+                  <ul class="footer__list">
                       <li><a href="./service.html">事業紹介</a></li>
                       <li><a href="./works.html">実績</a></li>
                       <li><a href="./price.html">価格</a></li>
                       <li><a href="../index.html#information">会社情報</a></li>
                       <li><a href="./recruit.html">採用</a></li>
-                      <li><a href="../index.html#contact">お問い合わせ</a></li>
+                      <li><a href="./commingsoon.html">お問い合わせ</a></li>
                   </ul>
-              </nav>
-          </div>
-        </header><!-- header end -->
-        <main>
-          <section class="detail_content detail_service top-hide">
-            <div class="hed_img">
-              <div class="hed_img_inner">
-                <h2>Service<br><span>サービス詳細</span></h2>
               </div>
-            </div>
-            <section class="det_con_cards">
-              <section class="det_con_card top-hide">
-                <h3>Webサイト制作</h3>
-                <p class="highlight">「魅力を引き出し、最大の成果を生むWebサイトを。」</p>
-                <p class="card_text">　当社のWebサイト制作サービスでは、クライアントのビジョンやブランド価値を最大限に引き出すことを目的としています。単なる「見た目の良さ」だけでなく、ユーザーの行動を促すための構造設計やSEO対策を施した、成果に直結するWebサイトを提供します。</p>
-                <h4>提供内容：</h4>
-                <ul>
-                  <li>コーポレートサイト、ランディングページ（LP）など多様なサイト制作に対応。</li>
-                  <li>ユーザー体験（UX）を重視したモダンなデザイン。</li>
-                  <li>スマホ・タブレットに対応したレスポンシブデザインを標準装備。</li>
-                  <li>検索エンジンでの表示を最適化する基本的なSEO設定。</li>
-                </ul>
-                <h4>制作フロー:</h4>
-                <ul>
-                  <li>ヒアリング: クライアントの要望や課題を詳細にお伺い。</li>
-                  <li>デザイン設計: ブランドイメージに合ったカスタムデザインを提案。</li>
-                  <li>開発・テスト: スピーディーかつ正確な開発と品質テスト。</li>
-                  <li>納品・サポート: サイトの運用開始後もサポート体制を完備。</li>
-                </ul>
-              </section>
-              <section class="det_con_card section">
-                <h3>SNS・広告運用</h3>
-                <p class="highlight">「拡散力とデータ分析で集客を最大化。」</p>
-                <p class="card_text">　SNSの活用とデジタル広告運用を通じて、ターゲットに確実にリーチするためのサポートを行います。私たちは、クライアントのビジネス目標に合わせた戦略を立案し、成果を上げるための運用を代行します。</p>
-                <h4>提供内容:</h4>
-                <ul>
-                  <li>Facebook、Instagram、X、LinkedInなど主要SNSのアカウント運用代行。</li>
-                  <li>魅力的な投稿内容（画像・動画・キャプション）を作成し、ユーザーとのエンゲージメントを向上。</li>
-                  <li>Google広告やSNS広告キャンペーンの戦略立案、実施、効果測定。</li>
-                </ul>
-                <h4>特徴：</h4>
-                <ul>
-                  <li>データ分析ツールを活用した運用結果のレポートを提供。</li>
-                  <li>ターゲットに合わせた広告クリエイティブとコピーを提案。</li>
-                  <li>継続的な最適化で広告のROI（費用対効果）を最大化。</li>
-                </ul>
-              </section>
-              <section class="det_con_card section">
-                <h3>コンテンツ制作・マーケティング</h3>
-                <p class="highlight">「価値あるコンテンツでターゲットの心を掴む。」</p>
-                <p class="card_text">　魅力的で効果的なコンテンツを通じて、ブランドの認知拡大や顧客のエンゲージメントを向上させます。クライアントのビジネスに合わせた戦略的なコンテンツ制作とマーケティング支援を行います。</p>
-                <h4>提供内容:</h4>
-                <ul>
-                  <li>コピーライティング: サービスや商品の魅力を的確に伝える文章作成。</li>
-                  <li>ブログ記事制作: SEOを意識した記事でWebサイトへの流入を促進。</li>
-                  <li>写真・動画制作: プロのカメラマンによる撮影から編集まで対応。</li>
-                  <li>メールマーケティング: 見込み客や既存顧客へのアプローチを最適化。</li>
-                </ul>
-                <h4>特徴</h4>
-                <ul>
-                  <li>SEO対策を意識したコンテンツ設計で、検索エンジンからの流入増加を実現。</li>
-                  <li>ブランド価値を高めるビジュアルコンテンツを提供。</li>
-                  <li>コンテンツを活用したキャンペーンやSNS運用と連携したマーケティング戦略を提案。</li>
-                </ul>
-              </section>
-              <section class="det_con_card section">
-                <h3>既存サイトの保守・運用</h3>
-                <p class="highlight">「安心できる運用体制で、長く愛されるWebサイトに。」</p>
-                <p class="card_text">　Webサイトは「作ったら終わり」ではありません。運用中のトラブルやセキュリティ対策、更新作業をサポートすることで、安心してWebサイトを活用できる環境を提供します。</p>
-                <h4>提供内容:</h4>
-                <ul>
-                  <li>定期的なメンテナンス：</li>
-                  <ul>
-                    <li>サーバーの動作確認、バージョンアップ対応</li>
-                    <li>サイトスピードの最適化</li>
-                  </ul>
-                  <li>セキュリティ対策：</li>
-                  <ul>
-                    <li>SSL証明書の更新、不正アクセス防止。</li>
-                    <li>セキュリティホールのパッチ適用。</li>
-                  </ul>
-                  <li>更新代行：</li>
-                  <ul>
-                    <li>テキストや画像の差し替え、新コンテンツの追加</li>
-                    <li>最新のSEO対策に基づいたサイト改修</li>
-                  </ul>
-                  <li>バックアップ管理：</li>
-                  <ul>
-                    <li>定期バックアップの実施とトラブル時の復元対応</li>
-                  </ul>
-                </ul>
-                <h4>特徴</h4>
-                <ul>
-                  <li>専任スタッフによる迅速な対応でトラブルを最小限に。</li>
-                  <li>クライアントの負担を軽減し、本業に専念できる環境を提供。</li>
-                  <li>継続的な改善提案でWebサイトを常に最適化。</li>
-                </ul>
-              </section>
-            </section>
-
-          </section>
-        </main>
-
-
-        <!-- footer -->
-        <footer class="footer">
-            <p>copyright 2018 Hikora Design</p>
-        </footer><!-- footer end -->
+              <p class="footer__text">copyright 2025 Hikora Design all right reserved</p>
+          </div>
+      </footer>
+      <!-- footer end -->
 
     </div>
     <!--wrapper end-->
 
     <!-- script js-->
-    <script src="../js/script.js"></script>
+    <script src="./js/html-script.js"></script>
     <!-- wow -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 

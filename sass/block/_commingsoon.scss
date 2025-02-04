@@ -1,0 +1,50 @@
+.commingsoon{
+  padding: 158px 24px 64px;
+  background-color: $bc-white;
+}
+.comming__contents{
+  display: flex;
+  justify-content: space-between;
+  gap: 48px;
+  padding-top: 24px;
+  @include sp{
+    flex-wrap: wrap;
+  }
+  .cta-btn{
+    margin: 0;
+  }
+}
+.comming__img{
+  width: 40%;
+  @include sp{
+    width: 100%;
+  }
+  img{
+    width: 100%;
+    height: auto;
+  }
+}
+.comming__cont-text{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  @include sp{
+    width: 100%;
+  }
+}
+.comming__cont-ttl{
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 24px;
+  @include tab{
+    font-size: 24px;
+  }
+}
+.comming__cont-description{
+  font-size: 20px;
+  margin-bottom: 48px;
+  @include tab{
+    font-size: 16px;
+  }
+}

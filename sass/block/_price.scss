@@ -1,17 +1,85 @@
-.detail_price{
-  .hed_img{
-    background-image: url(../images/service_keyvisual.webp);
-    background-size: cover;
-    background-position: 50% 40%;
+.pricing{
+  padding: 158px 24px 64px;
+  background-color: $bc-glay;
+  @include sp{
+    padding-bottom: 48px;
   }
-  .det_con_card{
-    h3{
-      margin-bottom: 10px;
-      span{
-        position: relative;
-        top: -10px;
-        font-size: 20px;
-      }
+}
+.pricing__card{
+  margin-bottom: 48px;
+  display: flex;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  @include tab{
+    flex-wrap: wrap;
+  }
+  &:last-child{
+    margin-bottom: 0;
+  }
+}
+.pricing__head-area{
+  width: 30%;
+  color: $bc-white;
+  padding: 48px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  @include tab{
+    width: 100%;
+    padding: 24px;
+  }
+}
+.green-box{
+  background-color: $mc-green;
+}
+.navy-box{
+  background-color: $mc-navy;
+}
+.yellow-box{
+  background-color: $ac-yellow;
+}
+.pricing__head-ttl{
+  font-size: 32px;
+  margin-bottom: 24px;
+  text-align: center;
+  line-height: 1;
+  @include tab{
+    font-size: 24px;
+  }
+  span{
+    font-size: 24px;
+    @include tab{
+      font-size: 16px;
     }
+  }
+}
+.pricing__head-subttl{
+  li{
+    margin-bottom: 16px;
+    margin-left: 16px;
+    @include tab{
+      max-width: 550px;
+      margin: 0 auto;
+      margin-left: 16px;
+    }
+  }
+}
+.pricing__description-area{
+  width: 70%;
+  padding: 24px 48px;
+  background-color: $bc-white;
+  @include tab{
+    width: 100%;
+    padding: 24px;
+  }
+}
+.pricing__description-ttl{
+  font-size: 20px;
+  font-weight: 500;
+}
+.pricing__description-list{
+  margin-bottom: 16px;
+  li{
+    margin-left: 24px;
   }
 }

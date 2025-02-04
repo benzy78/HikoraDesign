@@ -1,7 +1,86 @@
-.detail_service{
-  .hed_img{
-    background-image: url(../images/servicedetail_keyvisual.webp);
-    background-size: cover;
-    background-position: 50% 40%;
+.servicing{
+  padding: 158px 24px 64px;
+  background-color: $bc-white;
+}
+.servicing__contents{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 48px;
+  gap: 48px;
+  @include tab{
+    flex-wrap: wrap;
+    gap: 16px;
   }
+  &:last-child{
+    margin-bottom: 0;
+  }
+}
+.servicing__cont-img{
+  width: 40%;
+  @include tab{
+    width: 100%;
+    padding: 0 20%;
+  }
+  @include sp{
+    padding: 0;
+  }
+  img{
+    width: 100%;
+    height: auto;
+  }
+}
+.order1{
+  order: 1;
+  @include tab{
+    order:2;
+  }
+}
+.order2{
+  order:2;
+  @include tab{
+    order:1;
+  }
+}
+.servicing__cont-text{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  @include tab{
+    width: 100%;
+  }
+}
+.servicing__text-ttl{
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  @include sp{
+    text-align: center;
+    margin-bottom: 16px;
+  }
+}
+.servicing__text-copy{
+  color: $mc-green;
+  font-size: 20px;
+  margin-bottom: 24px;
+  @include sp{
+    margin-bottom: 16px;
+  }
+}
+.servicing__text-description{
+  font-size: 16px;
+  line-height: 2;
+  margin-bottom: 24px;
+  @include sp{
+    margin-bottom: 16px;
+  }
+}
+.servicing__text-list{
+  li{
+    line-height: 2;
+    margin-left: 24px;
+  }
+}
+.bg-glay{
+  background-color: $bc-glay;
 }

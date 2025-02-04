@@ -16,14 +16,14 @@ body {
 }
 
 body {
-	font-family: $ff-gothic;
+	font-family: $ff-mincho;
 	font-size: $fz-base;
 	font-weight: $fw-base;
-	color: $MainColor;
+	color: $mc-navy;
 	line-height: $lh-base;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	background: $BaseColor1;
+	background: $bc-white;
 	overflow-x: hidden;
 }
 
@@ -60,20 +60,20 @@ table {
 	border-spacing: 0;
 	width: 100%;
 	table-layout: fixed;
-	border: 1px solid $MainColor;
+	border: 1px solid $mc-navy;
 }
 
 th,td {
 	padding: 4px 6px;
 	text-align: left;
 	vertical-align: top;
-	border: 1px solid $MainColor;
+	border: 1px solid $mc-navy;
 }
 
 
 input,textarea {
 	padding: 8px;
-	border: 1px solid $MainColor;
+	border: 1px solid $mc-navy;
 	border-radius: 0;
 	background-image: none;
 	font-family: inherit;
@@ -82,7 +82,7 @@ input,textarea {
 
 	&:focus {
 		outline: none;
-		border: 1px solid $MainColor;
+		border: 1px solid $mc-navy;
 		box-shadow: none;
 	}
 }
@@ -126,7 +126,7 @@ input {
 				left: 0;
 				transform: translateY(-50%);
 				background: #fff;
-				border: 1px solid $MainColor;
+				border: 1px solid $mc-navy;
 				border-radius: 50%;
 				width: 1em;
 				height: 1em;
@@ -143,7 +143,7 @@ input {
 				outline: none;
 				border: 1px solid #fff;
 				box-shadow: none;
-				background: $MainColor;
+				background: $mc-navy;
 			}
 		}
 
@@ -155,7 +155,7 @@ input {
 				top: 50%;
 				left: 0.2em;
 				transform: translateY(-50%);
-				background: $MainColor;
+				background: $mc-navy;
 				border-radius: 50%;
 				width: 0.6em;
 				height: 0.6em;
@@ -183,7 +183,7 @@ input {
 				left: 0;
 				transform: translateY(-50%);
 				background: #fff;
-				border: 1px solid $MainColor;
+				border: 1px solid $mc-navy;
 				border-radius: 2px;
 				width: 1em;
 				height: 1em;
@@ -208,8 +208,8 @@ input {
 				height: 0.6em;
 				margin-top: -0.2em;
 				display: block;
-				border-left: 3px solid $MainColor;
-				border-bottom: 3px solid $MainColor;
+				border-left: 3px solid $mc-navy;
+				border-bottom: 3px solid $mc-navy;
 				opacity: 1;
 			}
 		}
@@ -221,7 +221,7 @@ select {
 	padding: 8px 24px 8px 8px;
 	border-radius: 0;
 	background-image: none;
-	border: 1px solid $MainColor;
+	border: 1px solid $mc-navy;
 	font-family: inherit;
 	font-size: 1em;
 	cursor: pointer;
@@ -234,7 +234,7 @@ select {
 
 	&:focus {
 		outline: none;
-		border: 1px solid $MainColor;
+		border: 1px solid $mc-navy;
 		box-shadow: none;
 	}
 }
@@ -251,5 +251,5 @@ select {
 
 
 main{
-	background-color: $BaseColor1;
+	background-color: $bc-white;
 }

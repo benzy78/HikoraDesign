@@ -20,165 +20,197 @@
 
 <body>
     <div class="wrapper">
-        <!-- header -->
-        <header class="header">
-          <div class="header_inner">
-              <h1 class="logo"><a href="../index.html">Hikora Design</a></h1>
-              <nav class="header_nav">
-                  <button class="menu-toggle" aria-label="Toggle navigation">
-                      <span class="menu-icon"></span>
-                      <span class="menu-icon"></span>
-                      <span class="menu-icon"></span>
-                  </button>
-                  <ul class="nav_links">
-                      <li><a href="../index.html">ホーム</a></li>
+      <!-- header -->
+      <header class="header">
+        <div class="inner--large header__inner">
+            <h1 class="header__logo"><a href="../index.html"><img src="../images/hikora_design_white_text 1.svg" alt="Hikora Design"></a></h1>
+            <nav class="header__nav">
+                <button class="menu-toggle" aria-label="Toggle navigation">
+                    <span class="menu-icon"></span>
+                    <span class="menu-icon"></span>
+                    <span class="menu-icon"></span>
+                    <span class="menu-label">Menu</span>
+                </button>
+                <ul class="header__nav-links">
+                    <li><a href="./service.html">事業紹介</a></li>
+                    <li><a href="./works.html">実績</a></li>
+                    <li><a href="./price.html">価格</a></li>
+                    <li><a href="../index.html#information">会社情報</a></li>
+                    <li><a href="./recruit.html">採用</a></li>
+                    <li><a href="./commingsoon.html">お問い合わせ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- header end -->
+       <!-- pricing -->
+          <section class="pricing">
+            <div class="inner--large">
+              <h2 class="section-ttl">Price<br><span>価格詳細</span></h2>
+              <div class="pricing__contents">
+                <div class="pricing__card fadein">
+                  <div class="pricing__head-area green-box">
+                    <h3 class="pricing__head-ttl">Light Plan<br><span>ライトプラン</span></h3>
+                    <ul class="pricing__head-subttl">
+                      <li>初めてWebサイトを作りたい小規模事業者、フリーランス、個人事業主</li>
+                      <li>LPや1〜5ページ程度の簡易なWebサイトが必要な方</li>
+                    </ul>
+                  </div>
+                  <div class="pricing__description-area">
+                    <h4 class="pricing__description-ttl">概要</h4>
+                    <ul class="pricing__description-list">
+                      <li>低コストでシンプルなWebサイトを提供するエントリープラン</li>
+                      <li>小規模事業者や個人事業主など、初めてWebサイトを持つ方に最適。</li>
+                    </ul>
+                    <h4 class="pricing__description-ttl">内容</h4>
+                    <ul class="pricing__description-list">
+                      <li>ページ数: トップページ＋最大5ページ（例: サービス紹介、会社概要、問い合わせフォーム）</li>
+                      <li>デザイン: テンプレートベースのデザイン（カスタマイズ可能な範囲は限定）</li>
+                    </ul>
+                    <h4 class="pricing__description-ttl">機能</h4>
+                    <ul class="pricing__description-list">
+                      <li>レスポンシブデザイン（スマホ・タブレット対応）</li>
+                      <li>基本的なSEO設定</li>
+                      <li>お問い合わせフォーム（メール送信機能）</li>
+                    </ul>
+                    <h4 class="pricing__description-ttl">納期</h4>
+                    <ul class="pricing__description-list">
+                      <li>約2〜4週間</li>
+                    </ul>
+                    <h4 class="pricing__description-ttl">アフターフォロー</h4>
+                    <ul class="pricing__description-list">
+                      <li>初回１ヶ月間の軽微な修正対応（テキスト変更など）</li>
+                    </ul>
+                    <h4 class="pricing__description-ttl">価格</h4>
+                    <ul class="pricing__description-list">
+                      <li>15万円〜20万円（一括払い）</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="pricing__card  scroll-fadein">
+                  <div class="pricing__head-area navy-box">
+                    <h3 class="pricing__head-ttl">Standard Plan<br><span>スタンダードプラン</span></h3>
+                    <ul class="pricing__head-subttl">
+                      <li>よりプロフェッショナルなデザインを求める中小企業や店舗</li>
+                      <li>ブランディングや集客力を意識したWebサイトを必要とする方</li>
+                    </ul>
+                  </div>
+                  <div class="pricing__description-area">
+                    <h4 class="pricing__description-ttl">概要</h4>
+                    <ul class="pricing__description-list">
+                      <li>オリジナルデザインで、集客やブランド構築を重視したプラン</li>
+                      <li>中小企業や店舗経営者に最適</li>
+                    </ul>
+                    <h4 class="pricing__description-ttl">内容</h4>
+                    <ul class="pricing__description-list">
+                      <li>ページ数: トップページ＋最大10ページ</li>
+                      <li>デザイン: 完全オリジナルデザイン（クライアントのブランドに合わせたカスタマイズ）</li>
+                    </ul>
+                    <h4 class="pricing__description-ttl">機能</h4>
+                    <ul class="pricing__description-list">
+                      <li>レスポンシブデザイン（スマホ・タブレット対応）</li>
+                      <li>基本的なSEO設定</li>
+                      <li>お問い合わせフォーム＋自動返信機能</li>
+                      <li>CMS（WordPress）の導入（ブログやニュースの更新が可能）</li>
+                    </ul>
+                    <h4 class="pricing__description-ttl">納期</h4>
+                    <ul class="pricing__description-list">
+                      <li>約4〜8週間</li>
+                    </ul>
+                    <h4 class="pricing__description-ttl">アフターフォロー</h4>
+                    <ul class="pricing__description-list">
+                      <li>納品後３ヶ月の修正対応</li>
+                      <li>操作マニュアルの提供（PDFまたは動画形式）</li>
+                    </ul>
+                    <h4 class="pricing__description-ttl">価格</h4>
+                    <ul class="pricing__description-list">
+                      <li>50万円〜100万円（一括払い）</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="pricing__card scroll-fadein">
+                  <div class="pricing__head-area yellow-box">
+                    <h3 class="pricing__head-ttl">Subscription Plan<br><span>月額制プラン</span></h3>
+                    <ul class="pricing__head-subttl">
+                      <li>初期費用を抑えたい方</li>
+                      <li>Webサイト運用や保守も任せたい方</li>
+                    </ul>
+                  </div>
+                  <div class="pricing__description-area">
+                    <h4 class="pricing__description-ttl">概要</h4>
+                    <ul class="pricing__description-list">
+                      <li>初期費用を抑え、月額料金で負担なく始められるサブスクリプションの型のプラン</li>
+                      <li>継続的な運用とサポートが含まれるため、手間をかけたくない方に最適</li>
+                    </ul>
+                    <h4 class="pricing__description-ttl">内容</h4>
+                    <ul class="pricing__description-list">
+                      <li>ページ数: トップページ＋最大5ページ</li>
+                      <li>デザイン: テンプレートをベースにしたカスタムデザイン</li>
+                    </ul>
+                    <h4 class="pricing__description-ttl">機能</h4>
+                    <ul class="pricing__description-list">
+                      <li>レスポンシブデザイン（スマホ・タブレット対応）</li>
+                      <li>お問い合わせフォーム</li>
+                      <li>CMS（WordPress）の導入（ブログやニュースの更新が可能）</li>
+                    </ul>
+                    <h4 class="pricing__description-ttl">納期</h4>
+                    <ul class="pricing__description-list">
+                      <li>約2〜5週間</li>
+                    </ul>
+                    <h4 class="pricing__description-ttl">保守・運用サービス</h4>
+                    <ul class="pricing__description-list">
+                      <li>定期バックアップ（毎月）</li>
+                      <li>SSL証明書更新やセキュリティ対策</li>
+                      <li>軽微な修正や更新（テキスト・画像変更）</li>
+                      <li>月次のアクセス解析レポート提供</li>
+                    </ul>
+                    <h4 class="pricing__description-ttl">価格</h4>
+                    <ul class="pricing__description-list">
+                      <li>初期費用：10万円</li>
+                      <li>月額料金：3〜5万</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- pricing end -->
+           <!-- cta-section -->
+           <section class="cta scroll-fadein">
+            <div class="inner--small">
+              <h2 class="cta__ttl">あなたのビジネスに最適なWebサイトを。</h2>
+              <p class="cta__text">集客・ブランディング・マーケティングを意識したWeb戦略を、一緒に実現しませんか？まずはお気軽にご相談ください。</p>
+              <a href="./commingsoon.html" class="cta-btn">問い合わせる</a>
+            </div>
+           </section>
+           <!-- cta-section end -->
+
+        <!-- footer -->
+        <footer class="footer">
+          <div class="inner--large">
+              <div class="footer__contents">
+                  <h2 class="footer__logo"><a href="../index.html"><img src="../images/hikora_design_white_text 1.svg" alt="Hikora Design"></a></h2>
+                  <ul class="footer__list">
                       <li><a href="./service.html">事業紹介</a></li>
                       <li><a href="./works.html">実績</a></li>
                       <li><a href="./price.html">価格</a></li>
                       <li><a href="../index.html#information">会社情報</a></li>
                       <li><a href="./recruit.html">採用</a></li>
-                      <li><a href="../index.html#contact">お問い合わせ</a></li>
+                      <li><a href="./commingsoon.html">お問い合わせ</a></li>
                   </ul>
-              </nav>
-          </div>
-        </header><!-- header end -->
-        <main>
-          <section class="detail_content detail_price top-hide">
-            <div class="hed_img">
-              <div class="hed_img_inner">
-                <h2>Price<br><span>価格詳細</span></h2>
               </div>
-            </div>
-            <section class="det_con_cards">
-              <section class="det_con_card top-hide">
-                <h3>Light Plan<br><span>ライトプラン</span></h3>
-                <ul class="highlight">
-                  <li>初めてWebサイトを作りたい小規模事業者、フリーランス、個人事業主</li>
-                  <li>LPや1〜5ページ程度の簡易なWebサイトが必要な方</li>
-                </ul>
-                <h4>概要：</h4>
-                <ul>
-                  <li>低コストでシンプルなWebサイトを提供するエントリープラン</li>
-                  <li>小規模事業者や個人事業主など、初めてWebサイトを持つ方に最適。</li>
-                </ul>
-                <h4>内容:</h4>
-                <ul>
-                  <li>ページ数: トップページ＋最大5ページ（例: サービス紹介、会社概要、問い合わせフォーム）</li>
-                  <li>デザイン: テンプレートベースのデザイン（カスタマイズ可能な範囲は限定）</li>
-                </ul>
-                <h4>機能：</h4>
-                <ul>
-                  <li>レスポンシブデザイン（スマホ・タブレット対応）</li>
-                  <li>基本的なSEO設定（タイトルタグ、メタディスクリプション）</li>
-                  <li>お問い合わせフォーム（メール送信機能）</li>
-                </ul>
-                <h4>納期：</h4>
-                <ul>
-                  <li>約2〜4週間</li>
-                </ul>
-                <h4>アフターフォロー</h4>
-                <ul>
-                  <li>初回１ヶ月間の軽微な修正対応（テキスト変更など）</li>
-                </ul>
-                <h4>価格</h4>
-                <ul>
-                  <li>15万円〜20万円（一括払い）</li>
-                </ul>
-              </section>
-
-              <section class="det_con_card section">
-                <h3>Standard Plan<br><span>スタンダードプラン</span></h3>
-                <ul class="highlight">
-                  <li>よりプロフェッショナルなデザインを求める中小企業や店舗</li>
-                  <li>ブランディングや集客力を意識したWebサイトを必要とする方</li>
-                </ul>
-                <h4>概要：</h4>
-                <ul>
-                  <li>オリジナルデザインで、集客やブランド構築を重視したプラン</li>
-                  <li>中小企業や店舗経営者に最適</li>
-                </ul>
-                <h4>内容:</h4>
-                <ul>
-                  <li>ページ数: トップページ＋最大8ページ（例: トップページ、サービス紹介、会社概要、採用情報、ブログ機能、お問い合わせフォーム）</li>
-                  <li>デザイン: 完全オリジナルデザイン（クライアントのブランドに合わせたカスタマイズ）</li>
-                </ul>
-                <h4>機能：</h4>
-                <ul>
-                  <li>レスポンシブデザイン（スマホ・タブレット対応）</li>
-                  <li>SEO対策（キーワード設定、基本的な内部SEO施策）</li>
-                  <li>お問い合わせフォーム＋自動返信機能</li>
-                  <li>CMS（WordPress）の導入（ブログやニュースの更新が可能）</li>
-                </ul>
-                <h4>納期：</h4>
-                <ul>
-                  <li>約4〜8週間</li>
-                </ul>
-                <h4>アフターフォロー</h4>
-                <ul>
-                  <li>納品後3ヶ月間の修正対応（軽微な変更や質問対応）</li>
-                  <li>操作マニュアルの提供（PDFまたは動画形式）</li>
-                </ul>
-                <h4>価格</h4>
-                <ul>
-                  <li>50万円〜100万円（一括払い）</li>
-                </ul>
-              </section>
-
-              <section class="det_con_card section">
-                <h3>Subscription Plan<br><span>月額制プラン</span></h3>
-                <ul class="highlight">
-                  <li>初期費用を抑えたい方</li>
-                  <li>Webサイト運用や保守も任せたい方</li>
-                </ul>
-                <h4>概要：</h4>
-                <ul>
-                  <li>初期費用を抑え、月額料金で負担なく始められるサブスクリプション型のプラン</li>
-                  <li>継続的な運用とサポートが含まれるため、手間をかけたくない方に最適</li>
-                </ul>
-                <h4>内容:</h4>
-                <ul>
-                  <li>ページ数: トップページ＋最大5ページ（必要に応じて追加可能）</li>
-                  <li>デザイン: テンプレートをベースにしたカスタムデザイン</li>
-                </ul>
-                <h4>機能：</h4>
-                <ul>
-                  <li>レスポンシブデザイン（スマホ・タブレット対応）</li>
-                  <li>お問い合わせフォーム</li>
-                  <li>CMS（WordPress）の導入</li>
-                </ul>
-                <h4>納期：</h4>
-                <ul>
-                  <li>約2〜5週間</li>
-                </ul>
-                <h4>運用・保守サービス</h4>
-                <ul>
-                  <li>定期バックアップ（毎月）</li>
-                  <li>SSL証明書更新やセキュリティ対策</li>
-                  <li>軽微な修正や更新（テキスト・画像変更など）</li>
-                  <li>月次のアクセス解析レポート提供（Google Analyticsなど）</li>
-                </ul>
-                <h4>価格</h4>
-                <ul>
-                  <li>諸費費用：5万円</li>
-                  <li>月額料金：1.5万円〜3万円</li>
-                </ul>
-              </section>
-            </section>
-
-          </section>
-        </main>
-
-
-        <!-- footer -->
-        <footer class="footer">
-            <p>copyright 2018 Hikora Design</p>
-        </footer><!-- footer end -->
+              <p class="footer__text">copyright 2025 Hikora Design all right reserved</p>
+          </div>
+      </footer>
+      <!-- footer end -->
 
     </div>
     <!--wrapper end-->
 
     <!-- script js-->
-    <script src="../js/script.js"></script>
+    <script src="./js/html-script.js"></script>
     <!-- wow -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 

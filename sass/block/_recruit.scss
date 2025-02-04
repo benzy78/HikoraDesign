@@ -1,14 +1,40 @@
-.detail_recruit{
-  .hed_img{
-    background-image: url(../images/recruit_keyvisual.webp);
-    background-size: cover;
-    background-position: 50% 40%;
+.recruiting{
+  padding: 154px 24px 64px;
+  background-color: $bc-white;
+}
+.recruiting__contents{
+  background-color: $bc-glay;
+  padding: 48px;
+  margin-bottom: 48px;
+}
+.recruiting__contents-ttl{
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 24px;
+  line-height: 1;
+  text-align: center;
+  @include tab{
+      font-size: 24px;
   }
-  h3{
-    span{
-      position: relative;
-      top: -10px;
-      font-size: 20px;
-    }
+  span{
+      font-size: 16px;
+      font-weight: 500;
+  }
+}
+.recruiting__kind{
+  margin-bottom: 48px;
+  &:last-child{
+    margin-bottom: 0;
+  }
+}
+.recruiting__kind-name{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.recruiting__kind-detail{
+  li{
+    margin-bottom: 16px;
+    margin-left: 24px;
   }
 }
