@@ -700,8 +700,8 @@ main {
   background-position: 0 40%;
 }
 
-.works__dental {
-  background-image: url(../images/dentaloffice_keyvisual.webp);
+.works__orgatask {
+  background-image: url(../images/OrgaTask.webp);
   background-size: cover;
   background-position: 0 40%;
 }
@@ -1366,8 +1366,8 @@ main {
   background-color: #1c1e31;
 }
 
-.yellow-box {
-  background-color: #f1c40f;
+.light-navy-box {
+  background-color: rgba(28, 30, 49, 0.7);
 }
 
 .pricing__head-ttl {
@@ -1485,8 +1485,8 @@ main {
   background-position: 50% 40%;
 }
 
-.working__card-dental {
-  background-image: url(../images/dentaloffice_keyvisual.webp);
+.working__card-orgatask {
+  background-image: url(../images/OrgaTask.webp);
   background-size: cover;
   background-position: 50% 40%;
 }
