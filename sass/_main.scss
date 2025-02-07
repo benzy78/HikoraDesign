@@ -190,6 +190,7 @@
 }
 .works__card{
   width: 50%;
+  border: 1px solid $bc-glay;
   @include sp{
       width: 100%;
   }
@@ -198,7 +199,7 @@
   background-color: $mask-black;
   transition: all 0.3s ease-in-out;
   &:hover{
-    background-color: $mask-green;
+    background-color: $mask-dark-black;
   }
 }
 .works__card-ttl{
@@ -211,7 +212,7 @@
 }
 
 .works__recycle{
-  background-image: url(../images/recycle_keyvisual.webp);
+  background-image: url(../images/ecohybe.webp);
   background-size: cover;
   background-position: 0 40%;
 }
@@ -226,7 +227,7 @@
   background-position: 0 40%;
 }
 .works__bakely{
-  background-image: url(../images/bakely_keyvisual.webp);
+  background-image: url(../images/bourangerie.webp);
   background-size: cover;
   background-position: 0 40%;
 }

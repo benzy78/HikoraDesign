@@ -71,7 +71,7 @@
     text-align: center;
     font-size: 20px;
     font-weight: bold;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    // box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     transition:all 0.3s ease-in-out;
     @include tab{
         font-size: 16px;
@@ -81,11 +81,16 @@
      @include sp{
         max-width: 100%;
      }
-    &:hover{
-        background-color: $bc-white;
-        color: $mc-green;
-        box-shadow: none;
-    }
+     &:hover{
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        transform: translateY(-2px); 
+        background-color: $green-hover;
+      }
+      &:active{
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3); 
+        transform: translateY(1px);
+        background-color: $mc-green;
+      }
 }
 
 .hed2{

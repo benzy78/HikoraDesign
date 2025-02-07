@@ -17,6 +17,7 @@
 .working__card{
   width: 50%;
   display: block;
+  border: 1px solid $bc-glay;
   @include sp{
     width: 100%;
   }
@@ -26,7 +27,7 @@
   padding: 100px 24px;
   transition: all 0.3s ease-in-out;
   &:hover{
-    background-color: $mask-green;
+    background-color: $mask-dark-black;
   }
 }
 .working__card-ttl{
@@ -36,7 +37,7 @@
 }
 
 .working__card-recycle{
-  background-image: url(../images/recycle_keyvisual.webp);
+  background-image: url(../images/ecohybe.webp);
   background-size: cover;
   background-position: 50% 40%;
 }
@@ -51,7 +52,7 @@
   background-position: 50% 40%;
 }
 .working__card-bakery{
-  background-image: url(../images/bakely_keyvisual.webp);
+  background-image: url(../images/bourangerie.webp);
   background-size: cover;
   background-position: 50% 40%;
 }
