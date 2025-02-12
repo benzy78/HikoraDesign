@@ -699,8 +699,8 @@ main {
   background-position: 0 40%;
 }
 
-.works__cafe {
-  background-image: url(../images/cafe_keyvisual.webp);
+.works__smart {
+  background-image: url(../images/smartordee.webp);
   background-size: cover;
   background-position: 0 40%;
 }
@@ -1486,8 +1486,8 @@ main {
   background-position: 50% 40%;
 }
 
-.working__card-cafe {
-  background-image: url(../images/cafe_keyvisual.webp);
+.working__card-smart {
+  background-image: url(../images/smartordee.webp);
   background-size: cover;
   background-position: 50% 40%;
 }
